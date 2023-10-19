@@ -59,15 +59,24 @@
     <h2><center>View or Manage Your Order</center></h2>
     <p><center>To check the status of your order, or to start a return, please enter your order number and email address.</center></p>
     <center><form>
-        <input type="orderNumber" id="orderNumberInput" placeholder="Order Number*">
+        <input type="orderNumber" id="orderNumberInput" placeholder="Order Number*" required>
         <br>
         <br>
-        <input type="email" id="emailInput" placeholder="Email Address*">
+        <input type="email" id="emailInput" placeholder="Email Address*" required>
         <br>
         <br>
         <input type="submit" value="Submit">
     </form></center>
     <center><p>Already a member? <a href="https://accounts.nike.com/lookup?client_id=4fd2d5e7db76e0f85a6bb56721bd51df&redirect_uri=https://www.nike.com/auth/login&response_type=code&scope=openid%20nike.digital%20profile%20email%20phone%20flow%20country&state=b751689e636542b3adc2210a40d465fa&code_challenge=ipX3dTwRkp6vtbER73zAfaGcj79RmG9l1j6Uv6-iEK8&code_challenge_method=S256">Sign In</a></p></center>
 
+    <h1>Nike Language Website Switcher</h1>
+    <center><h2>Choose your language</h2></center>
+    <center><form>
+        <input type="checkbox" id="germanInput">
+        <label for="germanInput">German</label>
+        <br>
+        <input type="checkbox" id="englishInput">
+        <label for="englishInput">English</label>
+    </form></center>
 </body>
 </html>
