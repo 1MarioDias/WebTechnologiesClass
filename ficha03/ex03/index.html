@@ -8,7 +8,7 @@
 <body>
     <form>
         <label for="nameInput">Name: </label>
-        <input type="name" id="nameInput" placeholder="Enter your name" required pattern=".{3,}" title="Your name must contain at least 3 characters.">
+        <input type="name" id="nameInput" placeholder="Enter your name" required minlength="3" title="Your name must contain at least 3 characters.">
         <br>
         <label for="emailInput">Email: </label>
         <input type="email" id="emailInput" placeholder="Enter your email" required>
@@ -29,7 +29,7 @@
         </select>
         <br>
         <label for="passwordInput">Password: </label>
-        <input type="password" id="passwordInput" placeholder="Enter your password" required pattern="(?=.*[A-Z])(?=.*[a-z]).{8,}" title="Your password must contain at least 8 characters, one capital letter and one lower case.">
+        <input type="password" id="passwordInput" placeholder="Enter your password" required pattern="(?=.*[A-Z])(?=.*[a-z])" minlength="8" title="Your password must contain at least 8 characters, one capital letter and one lower case.">
         <br>
         <input type="submit" value="Submit Form">
     </form>
