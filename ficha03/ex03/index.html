@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 03</title>
+</head>
+<body>
+    <form>
+        <label for="nameInput">Name: </label>
+        <input type="name" id="nameInput" placeholder="Enter your name" required pattern=".{3,}" title="Your name must contain at least 3 characters.">
+        <br>
+        <label for="emailInput">Email: </label>
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <br>
+        <label for="ageInput">Age: </label>
+        <input type="age" id="ageInput" placeholder="Enter your age" required>
+        <br>
+        <label for="dateOfBirthInput">Date of Birth: </label>
+        <input type="date" id="dateOfBirthInput">
+        <br>
+        <label for="nationalityInput">Nationality: </label>
+        <select name="nationality" id="nationalityInput">
+            <option value="portuguese">Portuguese</option>
+            <option value="spanish">Spanish</option>
+            <option value="swedish">Swedish</option>
+            <option value="british">British</option>
+            <option value="american">American</option>
+        </select>
+        <br>
+        <label for="passwordInput">Password: </label>
+        <input type="password" id="passwordInput" placeholder="Enter your password" required pattern="(?=.*[A-Z])(?=.*[a-z]).{8,}" title="Your password must contain at least 8 characters, one capital letter and one lower case.">
+        <br>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
