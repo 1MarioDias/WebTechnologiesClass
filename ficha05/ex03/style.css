@@ -1,0 +1,50 @@
+@import url(https://db.onlinewebfonts.com/c/3a025ae92e6446cec24efcb6d29e5bf3?family=Malgun+Gothic);
+
+@font-face {
+    font-family: "Malgun Gothic";
+    src: url("https://db.onlinewebfonts.com/t/3a025ae92e6446cec24efcb6d29e5bf3.eot");
+    src: url("https://db.onlinewebfonts.com/t/3a025ae92e6446cec24efcb6d29e5bf3.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3a025ae92e6446cec24efcb6d29e5bf3.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3a025ae92e6446cec24efcb6d29e5bf3.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3a025ae92e6446cec24efcb6d29e5bf3.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3a025ae92e6446cec24efcb6d29e5bf3.svg#Malgun Gothic")format("svg");
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-family: "Malgun Gothic";
+    font-size: 16px;
+}
+
+.hero {
+    padding: 80px;
+}
+
+.shoe {
+    border: 4px;
+    border-style: solid;
+    border-color: #ececec;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.shoe_image {
+    border-radius: 20px;
+    width: 400px;
+}
+
+.shoe_category {
+    color: #0e855b;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.shoe_name {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
