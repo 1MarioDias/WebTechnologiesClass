@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Inter";
+}
+
+.hero {
+    padding: 80px;
+}
+
+.product_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 60px;
+}
+
+.card_name {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card_img {
+    width: 295px;
+    border-radius: 20px;
+}
+
+.card_price {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card_img:hover ~ .card_price {
+    color: #3563E9;
+}
+
+.hero {
+
+}

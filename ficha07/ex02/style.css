@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Poppins;
+    src: url(assets/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    background-color: #651780;
+    color: #EE82EE;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.hero {
+    padding: 80px;
+}
+
+.headline {
+    font-size: 50px;
+    font-weight: bold;
+}
